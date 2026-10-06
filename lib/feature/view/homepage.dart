@@ -26,6 +26,13 @@ class _HomepageState extends State<Homepage> {
               style:TextStyle(color:Colors.black87,fontSize:52),
               ),
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                  ),
+                  backgroundColor: Colors.blue,
+                  foregroundColor: Colors.white,
+                ),
                 onPressed: () {
                   setState(() {
                     count++;
